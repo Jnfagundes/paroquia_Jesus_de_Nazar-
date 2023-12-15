@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paróqui Jesus de Nazaré</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    
+    <header>
+        <div id="topo">
+            <div id="imagem">
+                <img src="Imagens/logo.png" alt="Paróquia Jesus de Nazaré" id="logo">
+                
+            </div>
+        </div>
+        <nav>
+            <a href="#">Home |</a>
+            <a href="#">Horário das missas |</a>
+            <a href="#">Catequese |</a>
+            <a href="#">Comunidades</a>
+        </nav>
+        <hr>
+    </header>
+    <section id="container">
+        <button class="arrow-left control" aria-label="Previous image"><</button>
+        <button class="arrow-rigth control" aria-label="Previous image">></button>
+        <div class="galeria">
+            <div id="carrocel">
+                <img src="Imagens/Imagem_interna.jpg" alt="" class="foto current-foto">
+                <img src="Imagens/benção.jpg" alt="" class="foto">
+                <img src="Imagens/benção2.jpg" alt="" class="foto">
+                <img src="Imagens/catequistas.jpg" alt="" class="foto">
+                <img src="Imagens/Coroinhas.jpg" alt="" class="foto">
+                <img src="Imagens/piedade.jpg" alt="" class="foto">
+                <img src="Imagens/serra piedade.jpg" alt="" class="foto">
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="carrocel.js"></script>
 </body>
 </html>
